@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dahye</title>
+    <link rel="icon" href="imgs/main_logo.png">
+    <script
+    src="https://kit.fontawesome.com/9eb162ac0d.js"
+    crossorigin="anonymous"
+    ></script>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+    rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <!--Navbar-->
+    <nav id="navbar">
+        <div class="navbar__logo">
+            <i class="fas fa-laptop-code"></i>
+          <a href="#">DaHye</a>
+        </div>
+          <ul class="navbar__meun">
+            <li class="navbar__menu__item active" data-link="#home">Home</li>
+            <li class="navbar__menu__item" data-link="#about">About</li>
+            <li class="navbar__menu__item" data-link="#skills">Skills</li>
+            <li class="navbar__menu__item" data-link="#work">My work</li>
+            <li class="navbar__menu__item" data-link="#testimonials">Testimonial</li>
+            <li class="navbar__menu__item" data-link="#contact">Contact</li>
+          </ul>
+        </div>
+  
+        <!-- Toggle button -->
+        <button class="navbar__toggle-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </nav>
+
+  <!-- Home -->
+  <section id="home">
+    <!-- <div class="home__container">
+      <img 
+      class="home__avatar"
+      src="imgs/profile5.JPG" 
+      alt="photo"
+    /> -->
+    <h1 class="home__title">Hello, <br/>I'm Junior Coder</h1>
+    <h2 class="home__description">개발자가 되기 위해 공부중</h2>
+    <button class="home__contact">contact me</button>
+    </div>
+  </section>
+
+    <!-- about -->
+    <section id="about" class="section section__container">
+        <h1>About me</h1>
+        <p>
+          개발자 과정 학원에 다니면서 Oracle, Java, JDBC, HTML, CSS, JavaScript, JQuery, JavaEE, JSP, Spring, MyBatis, Python을 배웠습니다. 
+          학원 이수 후 vue.js 사용해서 반응형 portfolio를 만들어 봤습니다. 
+          또한 Back-end 개발 직무 공부를 위해 PHP+MySQL을 이용해 로그인+게시판+댓글 구현을 했습니다. 
+          Spring Framework 공부를 하면서 파티룸 사이트를 구현해 보았습니다.
+          현재는 react-native를 사용해 안드로이드 개발을 공부중에 있습니다.
+        </p>
+        <div class="about__majors">
+          <div class="major">
+            <div class="major__icon">
+              <i class="fab fa-js-square"></i>
+            </div>
+            <h2 class="major__title">Front-end</h2>
+            <p class="major__discription">
+              HTML, CSS, JavaScript,
+              <br/>JQuery, JSP
+            </p>
+          </div>
+          <div class="major">
+            <div class="major__icon">
+              <i class="fab fa-java"></i>
+            </div>
+            <h2 class="major__title">Back-end</h2>
+            <p class="major__discription">
+              Java, Spring, MyBatis
+              <br/>Oracle, JDBC
+            </p>
+          </div>
+          <div class="major">
+            <div class="major__icon">
+                <i class="fab fa-android"></i>
+            </div>
+            <h2 class="major__title">mobile</h2>
+            <p class="major__discription">
+              react-native
+              <br/> 
+            </p>
+          </div>
+        </div>
+        <div class="about_school">
+          <div class="school">
+            <img 
+              src="imgs/school/doubleSLogo.png" 
+              alt="sist" 
+              class="school__logo"
+            />
+            <div class="school__descripsion">
+            <p class="school__name">
+              쌍용교육센터에서 
+            </p>
+            <p class="school__period">2019년 05월 20일 - 12월 12일</p>
+          </div>
+          </div>
+          <br>
+          <div class="school">
+            <img 
+              src="imgs/school/koreaSchool.gif" 
+              alt="sist" 
+              class="school__logo"
+            />
+            <div class="school__descripsion">
+            <p class="school__name">
+              한국디지털기업협회 
+            </p>
+            <p class="school__period">2020년 09월 14일 - 01월 27일</p>
+          </div>
+          </div>
+        </div>
+      </section>
+    <!-- skills -->
+    <section id="skills" class="section">
+        <div class="section__container">      <h1>skills</h1>
+          <h2>Stills & Attribute</h2>
+          <p>
+            UI 설계부터 eXERD를 이용해 데이터 베이스를 구상하고 Class Diagram을 만드는 것 부터
+            front 개발, back 개발 전체 적인 흐름을 프로젝트를 통해 알고 있습니다.
+            새로운 거 배우는 거에도 관심이 있고
+            팀 환경에서 일하거나, 혼자서 일 할 수도 있습니다. 계획을 세우고, 시간을 잘 지키고
+            스트레스가 있어도 적응해서 충분히 잘할 수 있습니다.
+          </p>
+          <div class="skillset">
+            <div class="skillset__left">
+              <h3 class="skillset__title">Skills</h3>
+              <div class="skill">
+                <div class="skill_description">
+                  <span>HTML</span>
+                  <span>80%</span>
+                </div>
+                <div class="skill__bar">
+                  <div class="skill_value" style="width: 80%;"></div>
+                </div>
+              </div>
+              <div class="skill">
+                <div class="skill_description">
+                  <span>CSS</span>
+                  <span>70%</span>
+                </div>
+                <div class="skill__bar">
+                  <div class="skill_value" style="width: 70%;"></div>
+                </div>
+              </div>
+              <div class="skill">
+                <div class="skill_description">
+                  <span>JavaScript</span>
+                  <span>60%</span>
+                </div>
+                <div class="skill__bar">
+                  <div class="skill_value" style="width: 60%"></div>
+                </div>
+              </div>
+              <div class="skill">
+                <div class="skill_description">
+                  <span>Java</span>
+                  <span>60%</span>
+                </div>
+                <div class="skill__bar">
+                  <div class="skill_value" style="width: 60%"></div>
+                </div>
+              </div>
+              <div class="skill">
+                <div class="skill_description">
+                  <span>Oracle</span>
+                  <span>60%</span>
+                </div>
+                <div class="skill__bar">
+                  <div class="skill_value" style="width: 60%"></div>
+                </div>
+              </div>
+              <div class="skill">
+                <div class="skill_description">
+                  <span>NodeJS</span>
+                  <span>60%</span>
+                </div>
+                <div class="skill__bar">
+                  <div class="skill_value" style="width: 60%"></div>
+                </div>
+              </div>
+            </div>
+            <div class="skillset__right">
+              <div class="tools">
+                <h3 class="skillset__title">Tools</h3>
+                <ul class="tools__list">
+                  <li><span>Eclipse</span></li>
+                  <li><span>Visual Studio Code</span></li>
+                  <li><span>Golden6</span></li>
+                  <li><span>pgAdmin4</span></li>
+                  <!-- <li><span>iOS devlipment tool</span></li>
+                  <li><span>Skectch app</span></li> -->
+                </ul>
+              </div>
+              <div class="etc">
+                <h3 class="skillset__title">Etc</h3>
+                <ul class="etc_list">
+                  <li><span>Git Hub</span></li>
+                  <li><span>GitHub Desktop</span></li>
+                  <li><span>ERP</span></li>
+                </ul>
+              </div>
+            </div>
+          </div></div>
+      </section>
+
+    <!-- work --> 
+    <section id="work" class="section">
+        <div class="section__container">
+          <h1>My work</h1>
+        <h3>Projects</h3>
+        <div class="work__categories">
+          <button class="category__btn selected" data-filter="*">
+            All <span class="category__count">8</span>
+          </button>
+          <button class="category__btn" data-filter="front-end">
+            Front-end <span class="category__count">2</span>
+          </button>
+          <button class="category__btn" data-filter="back-end">
+            Back-end <span class="category__count">2</span>
+          </button>
+          <button class="category__btn" data-filter="mobile">
+            Mobile <span class="category__count">4</span>
+          </button>
+        </div>
+  
+        <div class="work__projects">
+        <a href="#" class="project" target="blank" data-type="back-end">
+          <img 
+            class="project.img"
+            src="imgs/projects/bananamarket.png" 
+            alt="2nd_prj"
+          />
+          <div class="prject__description">
+            <h3>Daangn Market Motive</h3>
+            <span>MVC패턴을 도입하여 개발, JAVA, Oracle, GitHub, HTML, CSS, JavaScript 사용</span>
+          </div>
+        </a>      
+        <a 
+          href="#" class="project" target="blank" data-type="back-end">
+          <img 
+            class="project.img"
+            src="imgs/projects/room_rental.png" 
+            alt="3rd_prj"
+          />
+          <div class="prject__description">
+            <h3>Party room rental</h3>
+            <span>Spring MVC패턴을 도입하여 개발</span>
+          </div>
+        </a>      
+        <a href="#" class="project"target="blank" data-type="front-end">
+          <img 
+            class="project.img"
+            src="imgs/projects/frontsample.png" 
+            alt="kakaoSample"
+          />
+          <div class="prject__description">
+            <h3>KAKAO</h3>
+            <span>HTML, CSS 사용</span>
+          </div>
+        </a>      
+        <a href="#" class="project" target="blank" data-type="front-end">
+          <img 
+            class="project.img"
+            src="imgs/projects/frontsample.png" 
+            alt="kakaoSample"
+          />
+          <div class="prject__description">
+            <h3>KAKAO</h3>
+            <span>HTML, CSS 사용</span>
+          </div>
+        </a>      
+        <a href="#" class="project"target="blank" data-type="mobile">
+          <img 
+            class="project.img"
+            src="imgs/projects/bananamarket.png" 
+            alt="2nd_prj"
+          />
+          <div class="prject__description">
+            <h3>JavaScript 연습중 mobile 반응으로</h3>
+            <span>swift & object-C 배워야지</span>
+          </div>
+        </a>
+        <a href="#" class="project"target="blank" data-type="mobile">
+          <img 
+            class="project.img"
+            src="imgs/projects/bananamarket.png" 
+            alt="2nd_prj"
+          />
+          <div class="prject__description">
+            <h3>JavaScript 연습중 mobile 반응으로</h3>
+            <span>swift & object-C 배워야지</span>
+          </div>
+        </a>
+        <a href="#" class="project"target="blank" data-type="mobile">
+          <img 
+            class="project.img"
+            src="imgs/projects/bananamarket.png" 
+            alt="2nd_prj"
+          />
+          <div class="prject__description">
+            <h3>JavaScript 연습중 mobile 반응으로</h3>
+            <span>swift & object-C 배워야지</span>
+          </div>
+        </a>
+        <a href="#" class="project"target="blank" data-type="mobile">
+          <img 
+            class="project.img"
+            src="imgs/projects/bananamarket.png" 
+            alt="2nd_prj"
+          />
+          <div class="prject__description">
+            <h3>JavaScript 연습중 mobile 반응으로</h3>
+            <span>swift & object-C 배워야지</span>
+          </div>
+        </a>    
+        </div>
+  
+        </div>
+      </section>
+
+    <!-- testimonials -->
+    <section id="testimonials" class="section">
+        <div class="section__container">
+          <h1>Testimonials</h1>
+          <h3>See what they say about me</h3>
+          <div class="tesimonials">
+            <div class="testimonial">
+              <img 
+                src="imgs/testimomianl/dh.png"  
+                alt="People" 
+                class="testimonial__avatar"
+              />
+              <div class="testimonial__speech-bubble">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Excepturi delectus exercitationem culpa iure rem, molestias 
+                repellendus numquam odit corporis nisi quo cumque quidem maxime 
+                eos accusamus amet vel, porro placeat.
+              </p>
+              <p class="name"><a href="">sam /Samsung</a></p>
+              </div>
+            </div>   
+            <div class="testimonial">
+              <div class="testimonial__speech-bubble">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Excepturi delectus exercitationem culpa iure rem, molestias 
+                repellendus numquam odit corporis nisi quo cumque quidem maxime 
+                eos accusamus amet vel, porro placeat.
+              </p>
+              <p class="name"><a href="">sam /Samsung</a></p>
+              </div>
+              <img 
+              src="imgs/testimomianl/dh.png"  
+              alt="People" 
+              class="testimonial__avatar"
+            />
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <!-- contact  -->
+    <section id="contact" class="section">
+        <h1 class="contact__title">Let's talk</h1>
+        <h2 class="contact__email">kangg5@naver.com</h2>
+        <div class="contact__links">
+          <a href="https://github.com/KANGDAHYE" target="_blank">
+            <i class="fab fa-github-alt"></i>
+          </a>
+        </div>
+        <p class="contract_rights">2020 Coding - All right reserved</p>    
+      </section>
+
+    <!-- Arrow up -->
+    <button class="arrow-up">
+        <i class="fas fa-arrow-up"></i>
+      </button>
+</body>
+</html>
