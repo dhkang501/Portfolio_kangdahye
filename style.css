@@ -36,6 +36,8 @@
     --color-dark-grayred: #c7bfbc;
 
     --color-light-grayred: #d2d3da;
+
+    --color-light-green: #95D7AE;
   
     /* Font size */
     --font-large: 48px;
@@ -145,7 +147,7 @@
   }
   
   #navbar.navbar--dark {
-    background-color: var(--color-dark-white);
+    background-color: var(--color-light-green);
     padding: 16px;
   }
   
@@ -154,6 +156,11 @@
     font-weight: var(--weight-semi-bold);
     color: white;
   }
+
+  .navbar__logo__img {
+  width: 36px;
+  height: 36px;
+}
   
   .navbar__meun {
     display: flex;
@@ -191,7 +198,8 @@
   
   /* Home */
   #home {
-    background: url("imgs/homebackground.png") center/cover no-repeat;
+    /* background: url("imgs/homebackground.png") center/cover no-repeat; */
+    background-color: #7BAE7F;
     padding: 40px;
     padding-top: 100px;
     text-align: center;
